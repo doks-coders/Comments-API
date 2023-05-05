@@ -1,0 +1,141 @@
+
+
+#### Get Specific Item ####
+GET http://localhost:3000/items/specific-item/19
+Content-Type: application/json
+
+
+#### Get Specific User, Item, Page Limit ####
+GET http://localhost:3000/items/comments-pagination/?itemId=22&commentLimit=2&commentPage=1
+Content-Type: application/json
+
+
+
+#### Get All Item Specs####
+GET http://localhost:3000/items/get-all-specs
+Content-Type: application/json
+
+
+
+
+
+#### Get Specific User ####
+
+GET http://localhost:3000/users/get-specific-user/10
+Content-Type: application/json
+
+
+#### Get All Users Specs####
+
+GET http://localhost:3000/users/get-all-users
+Content-Type: application/json
+
+
+
+
+
+#### Create Item ####
+
+
+POST http://localhost:3000/items/create-item
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imd1b25uaWVAZ21haWwuY29tIiwibmFtZSI6IkRhbmllbCBPZG9rdW1hIiwicGFzc3dvcmQiOiIkMmIkMTAkSWdLQ2VaSjlwcEVjL3VveHBzZ1VYdWJRN2tvQXhVVkxQRmF5cHA2UGRqS3VyTWoyOFkuQW0iLCJpYXQiOjE2ODI4NTQwNTYsImV4cCI6MTY4Mjg1NDY1Nn0.VRlA-aVVHrrYZKozwvz7fSZJgdySSapUYFvOu9qujm4
+
+{
+    "name" :"Who is Sakura?"
+}
+
+
+#### Delete Item ####
+
+
+DELETE  http://localhost:3000/items/delete-item/105
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imd1b25uaWVAZ21haWwuY29tIiwibmFtZSI6IkRhbmllbCBPZG9rdW1hIiwicGFzc3dvcmQiOiIkMmIkMTAkSWdLQ2VaSjlwcEVjL3VveHBzZ1VYdWJRN2tvQXhVVkxQRmF5cHA2UGRqS3VyTWoyOFkuQW0iLCJpYXQiOjE2ODMyODYzNTMsImV4cCI6MTY4MzI4Njk1M30.Z-QL2IUxdOEr_AF6uoUpWIC-WUwmy5v8pPd3R0Zqrb4
+
+
+
+
+#### Get Comment ####
+GET http://localhost:3000/comments/specific-comment/100
+Content-Type: application/json
+
+
+
+#### Create Comment ####
+
+POST http://localhost:3000/comments/create-comment/?itemId=19
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imd1b25uaWVAZ21haWwuY29tIiwibmFtZSI6IkRhbmllbCBPZG9rdW1hIiwicGFzc3dvcmQiOiIkMmIkMTAkSWdLQ2VaSjlwcEVjL3VveHBzZ1VYdWJRN2tvQXhVVkxQRmF5cHA2UGRqS3VyTWoyOFkuQW0iLCJpYXQiOjE2ODMwMjYxNDksImV4cCI6MTY4MzAyNjc0OX0.a3Csg5_gmNAbliOJAvpqt_BF-JKB6Bk7R7ZwPYLwago
+
+{
+    "text" :"I feel very happy now"
+}
+
+
+#### Reply Comment ####
+
+
+POST http://localhost:3000/comments/reply-comment/?commentId=88
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhaXRoQGdtYWlsLmNvbSIsIm5hbWUiOiJKYXl6IEZhaXRoIiwicGFzc3dvcmQiOiIkMmIkMTAkWUxVNWhLUG1vcHN5UjVuNWNTOUQ4dVNUQUM2QzE5Si5XZTJnMXVUSzQ1ZnBSbE9mV1IuUU8iLCJpYXQiOjE2ODI3Njc0NDIsImV4cCI6MTY4Mjg1Mzg0Mn0.OAu4C2PwMUpOn-enZB03bQMLsvbF9UWuGKaEuofZgQ0
+
+
+{
+    "text" :"No one should argue here"
+} 
+
+
+#### Delete Comment ####
+
+DELETE  http://localhost:3000/comments/delete-comment/107
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imd1b25uaWVAZ21haWwuY29tIiwibmFtZSI6IkRhbmllbCBPZG9rdW1hIiwicGFzc3dvcmQiOiIkMmIkMTAkSWdLQ2VaSjlwcEVjL3VveHBzZ1VYdWJRN2tvQXhVVkxQRmF5cHA2UGRqS3VyTWoyOFkuQW0iLCJpYXQiOjE2ODMyODc3MTEsImV4cCI6MTY4MzI4ODMxMX0.PFL7v5S8y7DinEImt_6xacdc9fXBi2K1qBE0ptaSoWg
+
+
+
+#### Get All Comments ####
+
+
+GET http://localhost:3000/comments/all-comments
+Content-Type: application/json
+
+
+
+#### Register User ####
+
+POST http://localhost:3000/users/create-user
+Content-Type: application/json
+
+{
+    "name":"John Doe",
+    "email" :"johndoe@gmail.com",
+    "password":"Password1234&",
+    "passwordVerify":"Password1234&"
+}
+
+#### Login User ####
+
+
+POST http://localhost:3000/users/login-user
+Content-Type: application/json
+
+{
+    "email" :"guonnie@gmail.com",
+    "password":"Password1234&"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
