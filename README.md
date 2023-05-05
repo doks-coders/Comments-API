@@ -1,9 +1,9 @@
-# Nestjs User Authentication API
+# Nestjs Comments API
 
 The Comments API is a comprehensive interface that incorporates all the necessary functionalities and procedures for collecting and transmitting comments from multiple users.
 ## Documentation
 
-[Swagger Documentation](https://user-authentication-backend-zuim.onrender.com/api)
+[API Documentation](https://user-authentication-backend-zuim.onrender.com/api)
 
 
 ## Run Locally
@@ -11,7 +11,7 @@ The Comments API is a comprehensive interface that incorporates all the necessar
 To clone this project run
 
 ```bash
-  git clone https://github.com/doks-coders/User-Authentication-Backend.git
+  git clone https://github.com/doks-coders/Comments-API.git
 ```
 
 
