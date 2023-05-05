@@ -3,7 +3,7 @@
 The Comments API is a comprehensive interface that incorporates all the necessary functionalities and procedures for collecting and transmitting comments from multiple users.
 ## Documentation
 
-[API Documentation](https://github.com/doks-coders/Comments-API)
+[API Documentation](https://doks-coders.github.io/Comments-API)
 
 
 ## Run Locally
