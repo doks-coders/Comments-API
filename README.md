@@ -3,7 +3,7 @@
 The Comments API is a comprehensive interface that incorporates all the necessary functionalities and procedures for collecting and transmitting comments from multiple users.
 ## Documentation
 
-[API Documentation](https://user-authentication-backend-zuim.onrender.com/api)
+[API Documentation](https://github.com/doks-coders/Comments-API)
 
 
 ## Run Locally
