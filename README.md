@@ -32,7 +32,7 @@ Our API offers various endpoints that streamline the process of retrieving and p
 
 ## Data Flow Design
 
-![App Screenshot](https://firebasestorage.googleapis.com/v0/b/procurement-app-10bdf.appspot.com/o/Screenshot_20230425-194559~2.png?alt=media&token=8690a09b-5707-41b2-ab7e-d023339c8c02)
+![App Screenshot](https://firebasestorage.googleapis.com/v0/b/procurement-app-10bdf.appspot.com/o/Screenshot_20230505-172046~2.png?alt=media&token=d0e2ac15-41a5-4591-ba7f-93df3e790016)
 
 
 ## Feedback
